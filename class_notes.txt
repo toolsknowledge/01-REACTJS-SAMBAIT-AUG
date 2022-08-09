@@ -1,0 +1,136 @@
+React
+*****
+    ReactJS is the "JavaScript" library
+
+    ReactJS library given by "Facebook"
+
+    ReactJS, used to develop "web applications"
+
+    ReactJS current version is "18.X"
+
+    we will develop web applications in two ways.
+
+    1) JSX
+
+    2) TSX
+
+    JSX Stands for "JavaScript and XML"
+
+    TSX Stands for "TypeScript and XML"
+
+    JavaScript is the "Scripting Language"
+
+    TypeScript is the "Programming Language"
+
+    JavaScript wont follows the "OOPS".
+
+    TypeScript follows the "OOPS"
+
+    In General, Browsers can't understand the XML.
+
+    So, we should convert XML to Equalent JavaScript.
+
+    Babel is the inbuilt tool of ReactJS, used to convert XML to Equalent JavaScript
+
+    React Internally follows the Virtal DOM.
+
+    Because of Virtal DOM React applications are faster compared to Angular applications
+
+    Angular applications follows Real DOM
+
+Software Installation
+*********************
+1) download and instll NodeJS
+    NodeJS Internally containes following tools
+            1) node
+            2) npm
+            3) npx
+    node tool, used to execute the "JavaScript"
+    npm Stands for "node packaging manager"
+    npm helps to install the "ReactJS"
+    npx stands for "node packaging runner"
+    npx creates the environment to build "react applications"
+
+2) install yarn tool
+
+    yarn tool given by "facebook"
+    yarn tool, used to download the "libraries" / "modules"
+    yarn tool Installation is "command based" Installation
+
+    > npm install --location=global yarn
+
+3) install create-react-app 
+
+    create-react-app is the tool
+    create-react-app tool used to create the react applications
+    create-react-app tool Installation is command based Installation
+
+    > npm install --location=global create-react-app
+
+
+4) download and install Visual Studio Code
+
+
+steps to create react application
+*********************************
+> npx create-react-app first-app
+> cd first-app
+> yarn start / npm start
+The Default Port No of react application is 3000
+
+
+Directory Structure of React Application
+****************************************
+node_modules
+    node_modules containes libraries
+    node_modules helps to create and execute the "react applications"
+
+public/index.html
+    react starts the execution from "index.html" file
+    "index.html" file is the "main" template in react application
+    "index.html" containes "div" whose id is "root"
+src
+    this folder used to deploy the components
+    App.js file is the Default Component
+    App.css file is the Style Sheet for App Component
+    App.test.js is the Unit test case file App Component
+
+src/index.css
+    used to define the global styles
+    these styles applicable to all components
+
+src/index.js
+    index.js file, used to register the components
+    index.js file will link/handover our component to main template(index.html)
+
+package.json
+    package.json file containes libraries information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
