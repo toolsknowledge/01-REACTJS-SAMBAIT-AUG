@@ -106,6 +106,18 @@ src/index.js
 package.json
     package.json file containes libraries information
 
+Components
+**********
+        Reusable Portion of Complex UI Called as Component
+        We Can Create More than one Component
+        We can provide Communication Between components
+        Components are Reusable
+        we can include one Component to another Component
+        We can create Components in 2 ways
+        1) Functional Level Components (Stateless Components)
+        2) Class Level Components      (Stateful Components)
+
+
 
 
 
