@@ -9,9 +9,10 @@ function Parent(){
         setStr2(param2);
         setStr3(param3);
     };
+   
     return(
         <React.Fragment>
-            <Child key1={my_fun}></Child>
+            <Child key={my_fun}></Child>
             <h1>{str1}....{str2}....{str3}</h1>
         </React.Fragment>
     )
