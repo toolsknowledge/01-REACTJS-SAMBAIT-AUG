@@ -118,7 +118,16 @@ Components
         2) Class Level Components      (Stateful Components)
 
 
+Single Page Applications
+************************
+    Loading one component to another component without refreshing 
+called as Single Page Application
 
+    navigation of one component to another component in Single Page Application called as "Routing"
+
+    we will implement Single Page Applications with following library
+
+            react-router-dom@6
 
 
 
