@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Master from './components/Master';
-import { BrowserRouter as SPA } from 'react-router-dom';
+import {BrowserRouter as SPA} from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <SPA>
