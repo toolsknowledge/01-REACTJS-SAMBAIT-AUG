@@ -129,6 +129,36 @@ called as Single Page Application
 
             react-router-dom@6
 
+State Management
+****************
+    To reduce Complexity of Communication Between Components, we have state Management
+
+    we will implement State Management in two ways
+
+    1) Context API
+
+            createContext()
+
+            useContext()
+
+    2) Redux
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
 
 
 
