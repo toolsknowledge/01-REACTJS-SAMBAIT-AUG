@@ -143,6 +143,66 @@ State Management
 
     2) Redux
 
+Intrgration of Redux to React Application
+*****************************************
+1) create react application
+
+        > npx create-react-app redux-ex3
+
+2) switch to reduce-ex3
+
+        > cd reduce-ex3
+
+3) download the node modules
+
+        => redux
+
+        => react-redux
+
+        redux library used to create redux architecture
+
+        react-redux used to integrate redux architecture to react application
+
+        yarn add redux react-redux
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
