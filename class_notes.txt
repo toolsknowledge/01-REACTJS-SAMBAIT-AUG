@@ -146,28 +146,140 @@ State Management
 Intrgration of Redux to React Application
 *****************************************
 1) create react application
+    > npx create-react-app redux-ex3
 
-        > npx create-react-app redux-ex3
+2) switch to react application
+    > cd redux-ex3
 
-2) switch to reduce-ex3
+3) download modules
+    1) redux
+    2) react-redux
 
-        > cd reduce-ex3
+    redux used to implement the redux architecture
+
+    react-redux used to integrate the redux architecture to react application
+
+    > yarn add redux react-redux
+
+4) create the reducer
+
+    ************************************
+    redux-ex3
+            src 
+              reducer
+                reducer.js
+    ************************************
+
+5) deploy reducer to "store" and make "store" availability to "component"
+
+    index.js
+
+6) perform subscription and dispatch operations in App Component
+
+
+CRUD Application (MongoDB, ExpressJS, NodeJS, Redux Redux-Thunk,React)
+**********************************************************************
+
+MongoDB
+*******
+    MongoDB is NoSQL database
+
+    MongoDB Supports JSON
+
+    MongoDB is "light weight" database
+
+    MongoDB by Default running on port no 27017
+
+********************************************************
+            SQL                     NoSQL
+********************************************************
+
+Ex.
+    Oracle                          MongoDB
+    MySQL
+    SQLServer
+
+    databases                       databases
+
+    tables                          collections
+
+    records                         document
+
+    primary key                     _id
+************************************************************
+
+"MongoDB Atlas" provides cloud environment
+
+
+database details
+****************
+
+database name : mern_stack
+
+collection name : products
+
+user name : admin
+
+password : admin
+
+url : mongodb+srv://admin:admin@sambait.nx70de8.mongodb.net/?retryWrites=true&w=majority
+
+
+NodeJS
+******
+    NodeJS is "backend" technology
+
+    NodeJS used to connect to "databases"
+
+    we will develop NodeJS Applications with the help of "JavaScript"
+
+    NodeJS supports modules / libraries
+
+1) express
+
+    express module used to develop rest api's
+
+    Ex.
+        GET
+        POST
+        PUT
+        DELETE
+        ---
+        ---
+        ---
+
+2) mongodb
+
+    mongodb module used to connect to "mongodb" database
+
+
+3) cors
+
+    cors module used to enable the "cors" policy
+
+
+    we will download above modules with the help of either npm or yarn
+
+
+1) create the server directory
+
+2) switch to server directory
+
+    > cd server
 
 3) download the node modules
 
-        => redux
+    => express
 
-        => react-redux
+    => mongodb
 
-        redux library used to create redux architecture
+    => cors
 
-        react-redux used to integrate redux architecture to react application
+    > yarn add express mongodb cors
 
-        yarn add redux react-redux
+4) develop rest api's
 
-
-
-
+    server.js
 
 
 
@@ -217,7 +329,34 @@ Intrgration of Redux to React Application
 
 
 
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
