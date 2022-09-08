@@ -283,6 +283,48 @@ NodeJS
 
 
 
+Thunk Application
+*****************
+
+1) create react application
+
+    > npx create-react-app crud-app
+
+2) switch to react application
+
+    > cd crud-app
+
+3) download node modules
+
+    => redux
+
+    => react-redux
+
+    => redux-thunk
+
+    => axios
+
+4) create actions
+
+    ******************************************
+    crud-app
+           src
+             actions
+                actions.js
+    *****************************************
+         
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
