@@ -6,7 +6,7 @@ import Error from "./Error";
 import Products from "./Products";
 const App = ()=>{
     const dispatch = useDispatch();
-    const result = useSelector(state=>state);
+    const result = useSelector(state=>state.reducer1);
     const {loading,products,error} = result;
     
     useEffect(()=>{

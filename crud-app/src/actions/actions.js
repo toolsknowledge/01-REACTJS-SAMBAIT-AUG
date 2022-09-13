@@ -6,7 +6,8 @@
 //axios internally returns promises
 //async and await keywords are used to consume promises
 import axios from "axios";
-const actions = ()=>{
+const actions = (getState)=>{
+    console.log(getState);
     return async (dispatch)=>{
             //before hit server
             //consider success response

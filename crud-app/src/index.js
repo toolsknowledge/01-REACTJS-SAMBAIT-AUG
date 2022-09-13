@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {applyMiddleware, createStore} from "redux";
+import {applyMiddleware, combineReducers, createStore} from "redux";
 import {Provider} from "react-redux";
 import thunk from "redux-thunk";
 import reducer from "./reducer/reducer";
-const store = createStore(reducer,applyMiddleware(thunk));
+import deleteReducer from "./reducer/deleteReducer";
+const store = createStore(combineReducers({
+  reducer1 : reducer,
+  reducer2 : deleteReducer
+}),applyMiddleware(thunk));
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>

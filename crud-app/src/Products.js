@@ -1,7 +1,12 @@
 import React from "react";
+import {useDispatch,useSelector} from "react-redux";
+import deleteActions from "./actions/deleteActions";
+
 const Products = (props)=>{
+    const dispatch = useDispatch();
     const remove = (id)=>{
-        console.log(id);
+        
+        dispatch(deleteActions(id));
     }
     return(
         <>

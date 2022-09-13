@@ -78,6 +78,7 @@ app.put("/update",(req,res)=>{
 
 //delete request
 app.delete("/delete",(req,res)=>{
+    console.log(req.body.p_id);
     clientObject.connect(`mongodb+srv://admin:admin@sambait.nx70de8.mongodb.net/?retryWrites=true&w=majority`,(err,connection)=>{
         if(err) throw err;
         else{
