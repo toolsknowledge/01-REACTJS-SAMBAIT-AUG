@@ -314,6 +314,60 @@ Thunk Application
     *****************************************
          
 
+frontend deployment
+*******************
+1) download and install aws cli tool
+    aws cli tool, used to push react application to aws server
+    website : https://aws.amazon.com/cli/
+
+2) configure cloud url in react application (CRUD URL'S)
+
+3) prepare production build
+    > npm run build
+
+4) push build folder to s3 bucket
+
+5) modify package.json file
+
+    "deploy": "aws s3 cp --recursive ./build s3://mernfrontend"
+
+6) prepare configuration keys
+
+    IAM
+
+7) execute the below commands
+
+    > aws configure
+
+    > npm run build
+
+    > npm run deploy
+
+8) copy the cloud url from static website hosting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

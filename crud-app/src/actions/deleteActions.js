@@ -1,9 +1,10 @@
 import axios from "axios";
 const deleteActions = (id)=>{
     
-    return async (dispatch)=>{
+    return async (dispatch,getState)=>{
+        console.log(getState().reducer2);
         try{
-            const {data} = await axios.delete("http://localhost:8080/delete", {
+            const {data} = await axios.delete("http://mernbackend-env.eba-yin2q8gu.ap-south-1.elasticbeanstalk.com/delete", {
                 headers: {
                 },
                 data: {

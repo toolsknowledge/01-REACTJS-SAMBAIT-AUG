@@ -8,9 +8,13 @@ import {Provider} from "react-redux";
 import thunk from "redux-thunk";
 import reducer from "./reducer/reducer";
 import deleteReducer from "./reducer/deleteReducer";
+import insertReducer from './reducer/insertReducer';
+import updateReducer from './reducer/updateReducer';
 const store = createStore(combineReducers({
   reducer1 : reducer,
-  reducer2 : deleteReducer
+  reducer2 : deleteReducer,
+  reducer3 : insertReducer,
+  reducer4 : updateReducer
 }),applyMiddleware(thunk));
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
